@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family:'Times New Roman', Times, serif;
+}
+#navbarr{
+    background-color: black;
+    padding: 10px;
+    width: 500%;
+}
+#navbarr a{
+    color: white;
+    padding-right: 40px;
+}
+#navbarr a img{
+    height: 40px;
+    width: 190px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.sunil{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+.para{
+    
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-around;
+}
+.para .para1{
+    width: 25%;
+   margin-left: 2%;
+}
+.para .para2{
+    width: 25%;
+    
+}
+.para .para3    {
+    width: 25%;
+    margin-right: 20px
+}
+.images-container .last{
+    margin-right: 200px;
+}
+.par{
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.par .par1{
+    width: 30%;
+   margin-left:-220px;
+   
+}
+.par .par2{
+    width: 30%;
+    margin-left: 0px;
+    
+}
+.par .par3   {
+    width: 30%;
+    margin-right: -220px
+}
+.pa {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-around;
+    margin-top: 30px;
+} 
+.pa .pa1{
+    width: 22%;
+ 
+   
+}   
+.pa .pa2{
+    width: 22%;
+    margin-left: 0px;
+    
+}
+.pa .pa3   {
+    width: 22%;
+    margin-right: 10px
+}
+
+
+
+.images-container_new h4{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 5px;
+    color: rgb(241, 60, 60);
+}
+.images-containerlast img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+.title2 h2{
+    margin-top: -500PX;
+    margin-left: 200px;
+}
+.img_containerlast{
+    margin-left: 200px;
+}
+#first h2{
+    margin-left: 170px;
+}
+.img2{
+
+  margin-left: -230px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+}
+.details .details2{
+    margin-left: 50px;
+}
+.details .details3{
+    margin-right: -20px;
+}
+.images-container h2{
+    font-size: 40px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayes Vision</title>
+    <link rel="stylesheet" href="bg.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            overflow: hidden; 
+            position: relative;
+        }
+        header, main, footer {
+            position: relative; 
+            z-index: 1;
+        }
+        .top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            padding-top: 20px; 
+        }
+        .bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            padding-bottom: 20px; 
+        }
+        
+        .animated-text {
+            opacity: 0;
+            animation: fadeIn 5s forwards; 
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        .animated-image {
+            position: absolute;
+            top: 50%;
+            left: -500px; 
+            transform: translateX(-10%);
+            animation: slideIn 2s forwards;
+        }
+
+        @keyframes slideIn {
+            from {
+                left: -500px; 
+            }
+            to {
+                left: 50px; 
+            }
+        }
+    </style>
+</head>
+<body style="top: 10px;">
+    <footer class="top" style="top: 300px;">
+        <!-- Button -->
+        <div class="footer-text animated-text" >Welcome to BayesVision, the pioneering nexus where state-of-the-art technology converges</div>
+        <div class="footer-text animated-text">with the profound insights of Human Action Intelligence.</div>
+        <button class="bottom-button animated-text" onclick="location.href='page2.html';">EXPLORE MORE</button>
+    </footer>
+    <img src="logo1.png" alt="Overlay Image" class="overlay-image animated-image" width="500" height="100" style="top: 10px;left: 30px;">
+
+    <footer class="bottom" style="top: 650px;">
+        <p class="animated-text">&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="back.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+</body>
+</html>

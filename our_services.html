@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- fontawesome cdn For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+
+    <style>
+        .heading {
+            position: absolute;
+            text-align: center;
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 100px;
+            line-height: 20px;
+            animation: fadeIn 2s ease-in-out;
+
+        }
+
+
+        .heading h2 {
+            color: rgb(241, 60, 60);
+            display: inline-flex;
+        }
+
+        .heading h3 {
+            color: rgb(239, 81, 81);
+            display: inline-flex;
+        }
+
+        .heading h4 {
+            color: rgb(244, 70, 70);
+            display: inline-flex;
+        }
+
+        .heading h1 {
+            font-size: 40px;
+        }
+
+        .images-container {
+            display: flex;
+            justify-content: center;
+            margin-top: -130px;
+            animation: fadeIn 2s ease-in-out;
+            
+        }
+
+        .images-container img {
+            width: 100px;
+            margin: 200px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .title1 img,
+        .title2 img,
+        .title3 img {
+            margin-bottom: 40px;
+        }
+        .images-container_new {
+            display: flex;
+            justify-content: center;
+            margin-top: -100px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .images-container_new img {
+            width: 100px;
+            margin: 200px;
+            height: 100px;
+            margin-top: 600px;
+            animation: fadeIn 2s ease-in-out;
+            
+        }
+        .images-container_new .center1{
+            width: 150px;
+            padding-left: -150px;
+            margin-right: 200px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        
+
+
+        .title4 img,
+        .title5 img,
+        .title6 img {
+            margin-bottom: 40px;
+        }
+        .para {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <div class="container-fluid" id="navbarr">
+            <a class="navbar-brand me-auto" href="#">
+                <img src="logo1.png" class="img" id="companylogo" width="120px"> </a>
+            <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="about_us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="our_products.html">Our Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="our_services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="contact_us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="heading">
+        <h1> Why Choose us </h1>
+        <div class="images-container">
+            <div class="title1">
+                <img src="logo5.png">
+                <h2>Cutting Edge Technology</h2>
+            </div>
+            <div class="title2">
+                <img src="logo6.png">
+                <h3>Comprehensive Features</h3>
+            </div>
+            <div class="title3">
+                <img src="logo7.png" class="last">
+                <h4>User-Friendly Interface</h4>
+            </div>
+        </div>
+        <div class="par">
+            <p class="par1">Our solution leverages the latest advancements in computer vision technology. We stay ahead
+                of
+                the curve by continuously updating our algorithms and models to provide accurate and real-time insights.
+            </p>
+            <p class="par2">Unlike other solutions, our application doesn't just scratch the surface. It offers a wide
+                range
+                of features, including object detection, facial recognition, image segmentation, and more. Whether you
+                need
+                to monitor sec.</p>
+            <p class="par3">We prioritize user experience. Our intuitive interface makes it easy for both technical and
+                non-technical users to interact with the application. No steep learning curves here!.</p>
+        </div>
+    </div>
+    <div class="images-container_new">
+        <div class="title4">
+            <img src="logo8.png" class="center1">
+            <h4>Scalability</h4>
+        </div>
+        <div class="title5">
+            <img src="logo9.png">
+            <h4>Customization</h4>
+        </div>
+        <div class="title6">
+            <img src="logo10.png" class="last">
+            <h4>Reliability</h4>
+        </div>
+    </div>
+    <div class="pa">
+        <p class="pa1">Our solution leverages the latest advancements in computer vision technology. We stay ahead of the curve by continuously updating our algorithms and models to provide accurate and real-time insights.</p>
+        <p class="pa2">Unlike other solutions, our application doesn't just scratch the surface. It offers a wide range of features, including object detection, facial recognition, image segmentation, and more. Whether you need to monitor sec.</p>
+        <p class="pa3">We prioritize user experience. Our intuitive interface makes it easy for both technical and non-technical users to interact with the application. No steep learning curves here!.</p>
+    </div>
+    </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
